@@ -1,0 +1,28 @@
+.transactions {
+    color: black;
+    font-family: "Arial", sans-serif;
+    width: 500px;
+    border-collapse: collapse;
+    border: 1px solid rgb(155, 141, 173);
+    text-align: center;
+    margin: auto;
+}
+
+th {
+    border: 1px solid rgb(155, 141, 173);
+    background-color: rgb(0, 188, 212);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+}
+td {
+    border: 1px solid rgb(155, 141, 173);
+    font-weight: 300;
+    font-size: 13px;
+    padding: 5px 0 5px 0;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(159, 248, 248);
+}

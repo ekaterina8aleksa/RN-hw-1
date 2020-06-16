@@ -1,0 +1,51 @@
+.title {
+    line-height: 70px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 270px;
+}
+.statisticsData {
+    display: flex;
+    width: 375px;
+    height: auto;
+    background-color: rgb(240, 243, 246);
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.dataList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 270px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.dataItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.lable {
+    font-family: "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.percentage {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
